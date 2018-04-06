@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.test_files            = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths         = ['lib']
 
-  s.add_dependency('nokogiri', '~> 1.6')
+  s.add_dependency('nokogiri', '~> 1.8')
   s.add_dependency('public_suffix', '~> 1.4')
   s.add_dependency('gman', '~> 4.1')
   s.add_dependency('dnsruby', '~> 1.56')
